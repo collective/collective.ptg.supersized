@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ptg.supersized">
+
+    <browser:resourceDirectory
+        name="ptg.supersized"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".ISupersizedDisplaySettings"
+        factory=".SupersizedSettings" />
+
+    <browser:page
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-supersized"
+        class=".SupersizedDisplayType"
+        template="supersized.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".SupersizedDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-supersized" />
+
+</configure>
