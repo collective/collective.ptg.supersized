@@ -155,6 +155,7 @@ href="%(portal_url)s/++resource++ptg.supersized/theme/supersized.shutter.css"/>
         images = self.adapter.cooked_images
         imagelist = []
         for image in images:
+            #image_data['url'] = image['link']
             imagelist.append({
                 'image': image['image_url'],
                 'title': image['title'],
