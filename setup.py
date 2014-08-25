@@ -5,7 +5,7 @@ version = '1.1'
 
 setup(name='collective.ptg.supersized',
       version=version,
-      description="",
+      description="supersized integration with plone",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
