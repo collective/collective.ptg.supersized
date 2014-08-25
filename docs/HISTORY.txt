@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.1 (2014-08-24)
+------------------
+
+- added option for «disable click to image view»
+
+
 1.0.3 (2012-07-24)
 ------------------
 

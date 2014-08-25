@@ -1,0 +1,8 @@
+
+collective.ptg.supersized.egg-info/
+
+collective.ptg.supersized.egg-info
+
+*.pyc
+
+*.gz

@@ -100,6 +100,12 @@ class ISupersizedDisplaySettings(IBaseSettings):
             default=u"Individual thumb links for each "
                     u"slide in the 'bottom tray'"),
         default=True)
+        
+    supersized_disable_click = schema.Bool(
+        title=_(u"label_disable_click",
+            default=u"Disable clicking on images. "
+                    u"Prevents goint to the image if you click on it"),
+        default=False)
     supersized_slide_links = schema.Choice(
         title=_(u"label_slide_link",
             default=u"Show slide names in the center of bottom tray (you will "
@@ -155,13 +161,15 @@ href="%(portal_url)s/++resource++ptg.supersized/theme/supersized.shutter.css"/>
         images = self.adapter.cooked_images
         imagelist = []
         for image in images:
-            #image_data['url'] = image['link']
-            imagelist.append({
+            image_data = {
                 'image': image['image_url'],
                 'title': image['title'],
                 'thumb': image['thumb_url'],
-                'url': image['link']
-                })
+                }
+            if not self.settings.supersized_disable_click:
+                image_data['url'] = image['link']
+
+            imagelist.append(image_data)
 
         return u"""
 <script type="text/javascript"
