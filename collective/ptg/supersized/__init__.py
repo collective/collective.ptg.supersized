@@ -20,6 +20,10 @@ class ISupersizedDisplaySettings(IBaseSettings):
         title=_(u"label_stop_loop",
             default=u"Pauses slideshow on last slide"),
         default=False)
+    supersized_random = schema.Bool(
+        title=_(u"label_random",
+            default=u"Show slides in random order"),
+        default=False)
     supersized_transition = schema.Choice(
         title=_(u"label_supersized_transition",
             default=u"Transition"),
@@ -186,7 +190,7 @@ $.supersized({
     start_slide: 1, // Start slide (0 is random)
     slide_interval: %(speed)i,
     stop_loop: %(stop_loop)i, // Pauses slideshow on last slide
-    random: 0, // Randomize slide order (Ignores start slide)
+    random: %(random)s, // Randomize slide order (Ignores start slide)
     slide_interval: %(duration)i, // Length between transitions
     // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom,
     // 5-Slide Left, 6-Carousel Right, 7-Carousel Left
@@ -243,5 +247,6 @@ $.supersized({
         'imagelist': json.dumps(imagelist),
         'speed': self.settings.duration,
         'duration': self.settings.delay,
+        'random': self.settings.supersized_random,
         }
 SupersizedSettings = createSettingsFactory(SupersizedDisplayType.schema)
