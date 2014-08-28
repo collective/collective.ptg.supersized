@@ -190,7 +190,7 @@ $.supersized({
     start_slide: 1, // Start slide (0 is random)
     slide_interval: %(speed)i,
     stop_loop: %(stop_loop)i, // Pauses slideshow on last slide
-    random: %(random)s, // Randomize slide order (Ignores start slide)
+    random: %(random)i, // Randomize slide order (Ignores start slide)
     slide_interval: %(duration)i, // Length between transitions
     // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom,
     // 5-Slide Left, 6-Carousel Right, 7-Carousel Left
