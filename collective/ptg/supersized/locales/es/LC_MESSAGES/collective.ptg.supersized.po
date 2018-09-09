@@ -49,12 +49,12 @@ msgstr ""
 #. Default: "Min height allowed, in pixels"
 #: ./__init__.py:74
 msgid "label_min_height"
-msgstr "Mínimo alto permitido, en pixeles"
+msgstr "Mínimo alto permitido, en píxeles"
 
 #. Default: "Min width allowed, in pixels"
 #: ./__init__.py:70
 msgid "label_min_width"
-msgstr "Mínimo ancho permitido, en pixeles"
+msgstr "Mínimo ancho permitido, en píxeles"
 
 #. Default: "Performance"
 #: ./__init__.py:51
@@ -96,8 +96,9 @@ msgstr "Nombre"
 
 #. Default: "Slideshow on"
 #: ./__init__.py:16
+#, fuzzy
 msgid "label_slideshow"
-msgstr ""
+msgstr "En Diapositivas"
 
 #. Default: "Pauses slideshow on last slide"
 #: ./__init__.py:20
@@ -123,17 +124,20 @@ msgstr "Normal"
 #. Default: "Hybrid between speed and quality"
 #: ./__init__.py:58
 msgid "label_supersized_performance1"
-msgstr ""
+#, fuzzy
+msgstr "Híbrido entre velocidad y calidad"
 
 #. Default: "Optimizes image quality"
-#: ./__init__.py:61
+#: ./__init__.py:60
+#, fuzzy
 msgid "label_supersized_performance2"
-msgstr ""
+msgstr "Optimizar la calidad de imagen"
 
 #. Default: "Optimizes transition speed. Only works for Firefox, IE, not Webkit"
 #: ./__init__.py:64
+#, fuzzy
 msgid "label_supersized_performance3"
-msgstr ""
+msgstr "Optimizar la velocidad de transición. Solamente trabaja para Firefox, IE, no para Webkit"
 
 #. Default: "Transition"
 #: ./__init__.py:28
