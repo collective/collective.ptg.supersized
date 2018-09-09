@@ -5,26 +5,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.supersized\n"
-"POT-Creation-Date: 2018-08-18 04:25+0000\n"
+"POT-Creation-Date: 2018-09-09 15:59+0000\n"
 "PO-Revision-Date: 2018-09-08 21:36-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish Team\n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
 "Language-Code: es\n"
 "Language-Name: Español\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.ptg.supersized\n"
+"Language: es\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
-#. Default: "Disable clicking on images. Prevents goint to the image if you click on it"
+#. Default: "Disable clicking on images. Prevents going to the image if you click on it"
 #: ./__init__.py:109
 msgid "label_disable_click"
-msgstr ""
+msgstr "Desactivar haciendo clic en las imágenes. Evita ir a la imagen si hace clic en ella"
 
 #. Default: "Image will never exceed browser width or height. Ignores min. dimensions"
 #: ./__init__.py:86
@@ -71,7 +71,7 @@ msgstr "Mostrar barra de proceso"
 #: ./__init__.py:24
 #, fuzzy
 msgid "label_random"
-msgstr "Mostrar slides en orden aleatorio"
+msgstr "Mostrar diapositivas en orden aleatorio"
 
 #. Default: "Hide ALL Controls"
 #: ./__init__.py:132
@@ -98,13 +98,13 @@ msgstr "Nombre"
 #: ./__init__.py:16
 #, fuzzy
 msgid "label_slideshow"
-msgstr "En Diapositivas"
+msgstr "En diapositiva"
 
 #. Default: "Pauses slideshow on last slide"
 #: ./__init__.py:20
 #, fuzzy
 msgid "label_stop_loop"
-msgstr "Pausar el mostrar slide en la ultima slide"
+msgstr "Pausar la visualización de diapositivas en la ultima diapositiva"
 
 #. Default: "CSS to customize the layout"
 #: ./__init__.py:136
@@ -123,12 +123,12 @@ msgstr "Normal"
 
 #. Default: "Hybrid between speed and quality"
 #: ./__init__.py:58
-msgid "label_supersized_performance1"
 #, fuzzy
+msgid "label_supersized_performance1"
 msgstr "Híbrido entre velocidad y calidad"
 
 #. Default: "Optimizes image quality"
-#: ./__init__.py:60
+#: ./__init__.py:61
 #, fuzzy
 msgid "label_supersized_performance2"
 msgstr "Optimizar la calidad de imagen"
@@ -177,12 +177,12 @@ msgstr ""
 #. Default: "Carousel Right"
 #: ./__init__.py:45
 msgid "label_supersized_transition6"
-msgstr "Carousel Derecho"
+msgstr "Carrusel Derecho"
 
 #. Default: "Carousel Left"
 #: ./__init__.py:47
 msgid "label_supersized_transition7"
-msgstr "Carousel Izquierdo"
+msgstr "Carrusel Izquierdo"
 
 #. Default: "Individual thumb links for each slide in the 'bottom tray'"
 #: ./__init__.py:103
@@ -191,8 +191,9 @@ msgstr ""
 
 #. Default: "Show next and previous thumb "
 #: ./__init__.py:99
+#, fuzzy
 msgid "label_thumbnail_navigation"
-msgstr ""
+msgstr "Mostrar próximo y anterior miniatura"
 
 #. Default: "Vertically center background"
 #: ./__init__.py:82
