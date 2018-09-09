@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.supersized VERSION\n"
-"POT-Creation-Date: 2018-08-18 04:25+0000\n"
+"POT-Creation-Date: 2018-09-09 15:59+0000\n"
 "PO-Revision-Date: 2010-01-15\n"
 "Last-Translator: Busico Mirto Silvio <m.busico@ieee.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.ptg.supersized\n"
 
-#. Default: "Disable clicking on images. Prevents goint to the image if you click on it"
+#. Default: "Disable clicking on images. Prevents going to the image if you click on it"
 #: ./__init__.py:109
 msgid "label_disable_click"
 msgstr ""

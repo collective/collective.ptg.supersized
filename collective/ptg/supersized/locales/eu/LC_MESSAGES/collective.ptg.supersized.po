@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.supersized\n"
-"POT-Creation-Date: 2018-08-18 04:25+0000\n"
+"POT-Creation-Date: 2018-09-09 15:59+0000\n"
 "PO-Revision-Date: 2012-06-19 09:36+0100\n"
 "Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
 "Language-Team: eu <eu@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Domain: DOMAIN\n"
 "X-Poedit-Language: Basque\n"
 
-#. Default: "Disable clicking on images. Prevents goint to the image if you click on it"
+#. Default: "Disable clicking on images. Prevents going to the image if you click on it"
 #: ./__init__.py:109
 msgid "label_disable_click"
 msgstr ""

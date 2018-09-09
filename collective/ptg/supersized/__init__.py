@@ -108,7 +108,7 @@ class ISupersizedDisplaySettings(IBaseSettings):
     supersized_disable_click = schema.Bool(
         title=_(u"label_disable_click",
             default=u"Disable clicking on images. "
-                    u"Prevents goint to the image if you click on it"),
+                    u"Prevents going to the image if you click on it"),
         default=False)
     supersized_slide_links = schema.Choice(
         title=_(u"label_slide_link",
