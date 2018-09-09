@@ -1,6 +1,4 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Manually defined message ids
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.supersized VERSION\n"
