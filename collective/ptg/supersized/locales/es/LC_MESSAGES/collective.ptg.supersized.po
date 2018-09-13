@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collective.ptg.supersized\n"
 "POT-Creation-Date: 2018-09-09 15:59+0000\n"
-"PO-Revision-Date: 2018-09-08 21:36-0400\n"
+"PO-Revision-Date: 2018-09-13 00:30-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: Spanish Team\n"
 "MIME-Version: 1.0\n"
@@ -29,22 +29,22 @@ msgstr "Desactivar haciendo clic en las imágenes. Evita ir a la imagen si hace 
 #. Default: "Image will never exceed browser width or height. Ignores min. dimensions"
 #: ./__init__.py:86
 msgid "label_fit_always"
-msgstr ""
+msgstr "La imagen nunca excederá el ancho y alto del navegador. Ignorar las dimensiones mínimas"
 
 #. Default: "Landscape images will not exceed browser width"
 #: ./__init__.py:95
 msgid "label_fit_landscape"
-msgstr ""
+msgstr "La imagen Paisajista no excederá el ancho del navegador"
 
 #. Default: "Portrait images will not exceed browser height"
 #: ./__init__.py:91
 msgid "label_fit_portrait"
-msgstr ""
+msgstr "Las imágenes Portrait no sera excederá el alto del navegador"
 
 #. Default: "Horizontally center background"
 #: ./__init__.py:78
 msgid "label_horizontal_center"
-msgstr ""
+msgstr "Fondo de imagen centrado horizontalmente"
 
 #. Default: "Min height allowed, in pixels"
 #: ./__init__.py:74
@@ -58,9 +58,8 @@ msgstr "Mínimo ancho permitido, en píxeles"
 
 #. Default: "Performance"
 #: ./__init__.py:51
-#, fuzzy
 msgid "label_performance"
-msgstr "Actuación"
+msgstr "Desempeño"
 
 #. Default: "Show progress bar"
 #: ./__init__.py:128
@@ -69,7 +68,6 @@ msgstr "Mostrar barra de proceso"
 
 #. Default: "Show slides in random order"
 #: ./__init__.py:24
-#, fuzzy
 msgid "label_random"
 msgstr "Mostrar diapositivas en orden aleatorio"
 
@@ -81,13 +79,12 @@ msgstr "Ocultar TODOS los Controles"
 #. Default: "Show slide names in the center of bottom tray (you will need to style 'Name' with css)"
 #: ./__init__.py:114
 msgid "label_slide_link"
-msgstr ""
+msgstr "Muestre los nombres de las diapositivas en el centro de la bandeja inferior (tendrá que darle un estilo a 'Nombre' con css)"
 
 #. Default: "Blank"
 #: ./__init__.py:123
-#, fuzzy
 msgid "label_slide_links_blank"
-msgstr "Nuevo"
+msgstr "Blanco"
 
 #. Default: "Name"
 #: ./__init__.py:120
@@ -102,9 +99,8 @@ msgstr "En diapositiva"
 
 #. Default: "Pauses slideshow on last slide"
 #: ./__init__.py:20
-#, fuzzy
 msgid "label_stop_loop"
-msgstr "Pausar la visualización de diapositivas en la ultima diapositiva"
+msgstr "Pausar la visualización de diapositivas en la última diapositiva"
 
 #. Default: "CSS to customize the layout"
 #: ./__init__.py:136
@@ -123,21 +119,18 @@ msgstr "Normal"
 
 #. Default: "Hybrid between speed and quality"
 #: ./__init__.py:58
-#, fuzzy
 msgid "label_supersized_performance1"
 msgstr "Híbrido entre velocidad y calidad"
 
 #. Default: "Optimizes image quality"
 #: ./__init__.py:61
-#, fuzzy
 msgid "label_supersized_performance2"
 msgstr "Optimizar la calidad de imagen"
 
 #. Default: "Optimizes transition speed. Only works for Firefox, IE, not Webkit"
 #: ./__init__.py:64
-#, fuzzy
 msgid "label_supersized_performance3"
-msgstr "Optimizar la velocidad de transición. Solamente trabaja para Firefox, IE, no para Webkit"
+msgstr "Optimiza la velocidad de transición. Solo funciona para Firefox, IE, no para Webkit"
 
 #. Default: "Transition"
 #: ./__init__.py:28
@@ -152,27 +145,27 @@ msgstr "Ninguno"
 #. Default: "Fade"
 #: ./__init__.py:35
 msgid "label_supersized_transition1"
-msgstr ""
+msgstr "Descolorar"
 
 #. Default: "Slide Top"
 #: ./__init__.py:37
 msgid "label_supersized_transition2"
-msgstr ""
+msgstr "Deslizar arriba"
 
 #. Default: "Slide Right"
 #: ./__init__.py:39
 msgid "label_supersized_transition3"
-msgstr ""
+msgstr "Deslizar a la derecha"
 
 #. Default: "Slide Bottom"
 #: ./__init__.py:41
 msgid "label_supersized_transition4"
-msgstr ""
+msgstr "Deslizar abajo"
 
 #. Default: "Slide Left"
 #: ./__init__.py:43
 msgid "label_supersized_transition5"
-msgstr ""
+msgstr "Deslizar a la izquierda"
 
 #. Default: "Carousel Right"
 #: ./__init__.py:45
@@ -187,15 +180,14 @@ msgstr "Carrusel Izquierdo"
 #. Default: "Individual thumb links for each slide in the 'bottom tray'"
 #: ./__init__.py:103
 msgid "label_thumb_links"
-msgstr ""
+msgstr "Enlaces individual de pulgar para cada diapositiva en la 'bandeja inferior'"
 
 #. Default: "Show next and previous thumb "
 #: ./__init__.py:99
-#, fuzzy
 msgid "label_thumbnail_navigation"
-msgstr "Mostrar próximo y anterior miniatura"
+msgstr "Mostrar pulgar en el siguiente y anterior "
 
 #. Default: "Vertically center background"
 #: ./__init__.py:82
 msgid "label_vertical_center"
-msgstr ""
+msgstr "Fondo de imagen centrado verticalmente"
