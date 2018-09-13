@@ -4,6 +4,9 @@ Changelog
 1.3 (unreleased)
 ------------------
 
+- Added more keywords and strings classifiers items and updated others items 
+  for this package [macagua]
+
 - Updated Spanish translation [macagua]
 
 - Updated Gettext files [macagua]
